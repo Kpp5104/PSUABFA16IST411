@@ -71,10 +71,11 @@ class notification_level:
 
 
 ##probably how a connection notification class should look like for system/mant
-redAlert = 100 #send notice on phone / manufa / dealer
-orange= 75 # send notice on phone
-lightOn= 50 # turn on lights in display
-lightBlink= 25 # blinking lights for 10-15 mins when car starts
+## we are following scale of 1- 10 (10 beeing the higest)
+redAlert = 10 #send notice on phone / manufa / dealer
+orange= 7 # send notice on phone
+lightOn= 5 # turn on lights in display
+lightBlink= 3 # blinking lights for 10-15 mins when car starts
 sMlevel = entrylogbook
 
 class systemMant_notic:
