@@ -1,7 +1,7 @@
     import json
 
     #simulate reception from XBEE
-    RcvData= '{"Arduino1":[{"temperature":"32","humidity":"80"}]}'
+    RcvData= '{""}'
 
     #extract data
 
